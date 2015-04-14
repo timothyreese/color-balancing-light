@@ -39,14 +39,14 @@ void setup() {
   strip_b.begin(); // Initialize pins for output
   strip_b.show();  // Turn all LEDs off ASAP
   
-  pinMode(8, OUTPUT); // On/Off Button LED
+  pinMode(13, OUTPUT); // On/Off Button LED
 
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
 
-digitalWrite(8, HIGH); // On/Off Status LED is on to show light is powered
+digitalWrite(13, HIGH); // On/Off Status LED is on to show light is powered
 
 strip_a.setPixelColor(0, 255, 255, 255);
 strip_a.setPixelColor(1, 255, 255, 255);
